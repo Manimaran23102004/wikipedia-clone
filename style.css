@@ -1,0 +1,50 @@
+ body{
+  margin: 0px;
+  padding: 0px;
+  font-family:cursive;
+  transition: transform(0.8),ease;
+}
+.container{
+  width: 100%;
+  height: 20vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50px;
+}
+h1{
+  margin: 0px;
+  padding: 0px;
+}
+.header_container{
+  display: flex;
+  gap: 20px;
+
+}
+
+#theme{
+  background-color: aliceblue;
+  border-radius: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border: none;
+
+  cursor: pointer;
+}
+.lightmode{
+  background-color: #ffffff;
+  color: #000000;
+}
+.darkmode{
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+.show{
+  position: absolute;
+  width: 100vw;;
+  height: 100vh;
+  top: 20%;
+  padding-left: 90px;
+}
